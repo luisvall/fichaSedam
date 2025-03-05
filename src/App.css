@@ -1,0 +1,149 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #303030;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+.datosPersonales{
+    padding: 20px;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:16px;
+    padding: 10px 20px;
+}
+
+form .header{
+    grid-column: 1/3;
+}
+
+form .header img{
+    object-fit: contain;
+    width: 101px;
+    max-height: 86px;
+    padding-right: 20px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+   height: 32px;
+   padding: 4px;
+   border-radius: 4px;
+   line-height: 100%;
+   border: 1px solid #30303057;
+   color: #303030cc;
+   font-size: 14px;
+   padding-left: 8px;
+}
+
+label{
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 2px;
+}
+
+.tiempo div input{
+    height: 30px;
+    border: none;
+    width: 120px;
+    background-color: transparent;
+}
+
+.tiempo{
+    display: flex;
+    grid-column: 1/3;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.formBussiness{
+    background-color: rgba(127, 255, 212, 0.212);
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.185);
+    position: relative;
+}
+
+.btn{
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50px;
+    height: 30px;
+    border: 1px solid rgb(24, 41, 49);
+    background-color: aliceblue;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+.empresas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.datosPersonales .oneCol{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.datosPersonales .oneCol{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.datosPersonales .oneCol ol li input{
+   height: min-content;
+   width: 100%;
+   margin-bottom: 8px;
+}
+
+.dflex{
+    display: flex;
+    gap: 10px;
+}
+
+.settings{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.firma{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.firma span{
+    border-top: solid 1px black;
+    text-align: center;
+}
+
+.firma div input{
+    width: 120px;
+}
+
+@media (max-width: 500px) {
+    .datosPersonales{
+        padding: 10px;
+    }
+    input{
+        display: flex;
+    }
+    .firma{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn{font-size: 12px; padding: 0px 4px;}
+}
