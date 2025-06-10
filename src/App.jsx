@@ -54,10 +54,10 @@ function App() {
             <label htmlFor="lastName">Apellidos</label>
             <input type="text" placeholder="Hernadez Pérez" />
           </div>
-          <div className="data">
+          {/* <div className="data">
             <label htmlFor="run">RUN o Pasaporte</label>
             <input type="text" placeholder="11111111-1" />
-          </div>
+          </div> */}
           <div className="data">
             <label htmlFor="nacionalidad">Nacionalidad</label>
             <input type="text" placeholder="chilena" />
